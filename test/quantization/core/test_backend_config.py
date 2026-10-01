@@ -20,7 +20,7 @@ from torch.ao.quantization.fx.quantize_handler import _default_root_node_getter
 
 class TestBackendConfig(QuantizationTestCase):
     hw_classification = HardwareClassification.GENERIC
-    
+
     # =============
     #  DTypeConfig
     # =============
